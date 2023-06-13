@@ -5,7 +5,8 @@
 
 class SpectrumCalculator {
 public:
-    SpectrumCalculator() {}
+    SpectrumCalculator() = default;
+    ~SpectrumCalculator() = default;
 
     void GetInputParameters() {
         std::cout << "Enter value for A: ";
